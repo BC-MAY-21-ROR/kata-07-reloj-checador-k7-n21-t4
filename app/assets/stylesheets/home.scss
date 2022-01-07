@@ -1,3 +1,85 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+/*Login*/
+
+.card{
+    height: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: transparent !important;
+}
+
+.fc-logo{
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #d8f3fd;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize; 
+    text-align: center;  
+}
+
+.login-form .form-control {
+    background: #1779B7 none repeat scroll 0 0;
+    border: 1px solid #0F5E9B;
+    border-radius: 4px;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    opacity: 1;
+}
+
+#inputUserName::placeholder, #inputPassword::placeholder{
+    font-family: 'Nunito', sans-serif;
+    color: #8dc0dd;
+    text-align: center;
+    font-style: normal;
+}
+
+main-div {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 2px;
+    margin: 10px auto 30px;
+    max-width: 38%;
+    padding: 50px 70px 70px 71px;
+    
+  }
+  
+  .login-form .form-group {
+    margin-bottom:10px;
+    
+  }
+  .login-form{ text-align:center;}
+  .forgot a {
+    color: #a5c5de;
+    font-size: 14px;
+    text-decoration: underline;
+  }
+  .login-form  .btn.btn-primary {
+    background: #5da371 none repeat scroll 0 0;
+    border-color: #529b79;
+    color: #c5decb;
+    font-size: 25px;
+    width: 50%;
+    height: 60px;
+    line-height: 50px;
+    padding: 0;
+    
+  }
+  .forgot {
+    text-align: left; margin-bottom:40px;
+  }
+
+  .back { text-align: left; margin-top:10px;}
+  .back a {color:  #a5c5de;; font-size: 13px;text-decoration: none;}
+  
+
+  
